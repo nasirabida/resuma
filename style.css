@@ -1,0 +1,92 @@
+/* Main Background */
+
+body {
+    background-color: hsl(250, 60%, 90%);
+    margin: 0;
+    padding: 30px;
+}
+
+
+/* Heading Design */
+
+h1 {
+    color: navy;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+
+/* Three Boxes Layout */
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+h3 {
+    color: #6A4C93;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: Arial, sans-serif;
+    margin-top: -45px;
+    margin-bottom: 65px;
+}
+
+/* First Box - HSL */
+
+.box1 {
+    background-color: #F5D0E6;
+    color: hsl(320, 50%, 30%);
+    border: 3px solid #B45B91;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: justify;
+    flex: 1;
+}
+
+
+/* Second Box - RGB */
+
+.box2 {
+    background-color: #BDEBE5;
+    color: rgb(30, 100, 95);
+    border: 3px solid #399D94;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: justify;
+    flex: 1;
+}
+
+
+/* Third Box - HEX */
+
+.box3 {
+    background-color: #FFE0B2;
+    color: #A34D20;
+    border: 3px solid #D18A48;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: justify;
+    flex: 1;
+}
+
